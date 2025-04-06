@@ -15,6 +15,7 @@ const eslintConfig = [
     rules: {
       "semi": ["error", "always"],
       "prefer-const": ["off"],
+      "react-hooks/exhaustive-deps": ["off"]
     }
   }
 ];

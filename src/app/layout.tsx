@@ -8,15 +8,15 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Knowly",
+  title: "Knowly - Página inicial",
   description: "Os melhores cursos de tecnologia gratuítos do Youtube",
 };
 
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="pt-BR">
-      <Header />
       <body className={`${nunito.className} antialiased`}>
+        <Header />
         {children}
       </body>
     </html>
