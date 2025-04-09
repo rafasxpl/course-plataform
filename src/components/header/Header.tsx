@@ -46,7 +46,7 @@ const Header = () => {
                     data-open={menuOpen}
                     tabIndex={menuOpen ? undefined : -1 }
                     className={
-                        `fixed top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-background transition-transform data-[open=false]:-translate-x-full sm:hidden`
+                        `fixed top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-background transition-transform data-[open=false]:-translate-x-full`
                     }
                     onClick={() => {setMenuOpen(!menuOpen);}}
                 >
