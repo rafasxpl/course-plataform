@@ -10,7 +10,7 @@ interface ICardProps {
 
 const Card = ({description, image, title}: ICardProps) => {
   return (
-    <article className='px-2 my-2'>
+    <article>
       <Link href='/cursos/' className='flex flex-col gap-2 hover:no-underline'> 
         <Image
             src={image}
