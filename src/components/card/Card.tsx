@@ -16,8 +16,8 @@ const Card = ({description, image, title}: ICardProps) => {
             src={image}
             alt='Imagem'
             className='aspect-video object-cover'
-            width={480}
-            height={360}
+            width={640}
+            height={680}
             draggable={false}
         />
         <h4 className='font-extrabold text-lg'>{title}</h4>
