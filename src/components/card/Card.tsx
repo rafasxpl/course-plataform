@@ -22,7 +22,7 @@ const Card = ({description, image, title}: ICardProps) => {
         />
         <h4 className='font-extrabold text-lg'>{title}</h4>
 
-        <p className='line-clamp-3'>{description}</p>
+        <p className='line-clamp-2 sm:line-clamp-3 md:line-clamp-4'>{description}</p>
       </Link>
     </article>
   );
