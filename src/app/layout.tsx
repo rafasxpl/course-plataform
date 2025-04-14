@@ -18,7 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="pt-BR">
       <body className={`${nunito.className} antialiased`}>
         <Header />
-        <main>
+        <main className="mx-auto md:max-w-[915px]">
           {children}
         </main>
       </body>
